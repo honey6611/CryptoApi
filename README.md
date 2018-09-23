@@ -2,8 +2,9 @@
 Create endpoint for cryptocurrency list and update 
 using Koa, typescript.
 To do 
-[]Setup environment
-[]Kreate a koa app
+[x]Setup environment
+[x]Create a koa app
+[x]Create basic route
 []Connect to crypto endpoint
 []connect to MongoDb
 []create user endpoint connecting to mongo

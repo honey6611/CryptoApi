@@ -1,0 +1,36 @@
+{
+  "name": "cryptoapi",
+  "version": "1.0.0",
+  "description": "CRUD uising koa",
+  "main": "index.js",
+  "scripts": {
+    "watch-server": "nodemon --watch 'app/**/*' -e ts,tsx --exec ts-node app/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honey6611/CryptoApi.git"
+  },
+  "author": "honey peethambaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honey6611/CryptoApi/issues"
+  },
+  "homepage": "https://github.com/honey6611/CryptoApi#readme",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.32",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
